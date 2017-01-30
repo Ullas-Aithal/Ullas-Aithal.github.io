@@ -4,10 +4,14 @@
     <title>Bootstrap 101 Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/custom/main.css" rel="stylesheet" media="screen">
+    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">-->
   </head>
   <body>
     <h1>Hello, world!</h1>
+      <div class="half-image">
+      </div>
       <div class="progress progress-striped active">
    <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
       <span class="sr-only">45% Complete</span>
@@ -15,19 +19,21 @@
 </div>
       <div class="container-fluid">
       <div class="row-fluid">
-          <div class="span2" style="background: aqua">
+          <div class="col-md-2" style="background: aqua">
             <!--Sidebar content-->
           </div>
-          <div class="span10" style="background: re">
+          <div class="col-md-8" style="background: red">
             <!--Body content-->
+          </div>
+          <div class="col-md-2" style="background: blue">
+            <!--Right Sidebar content-->
           </div>
       </div>
   </div>
   
-
-     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    
+     
     <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
