@@ -33,3 +33,20 @@
 {
  height:100%;
 }
+
+.intro-font-holder
+{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.intro-font
+{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro-child
+{
+    padding-top: 4%;
+    padding-bottom: 4%
+}
