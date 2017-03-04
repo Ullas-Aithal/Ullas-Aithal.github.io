@@ -50,3 +50,10 @@
     padding-top: 4%;
     padding-bottom: 4%
 }
+
+.full-name-style
+{
+    padding-top: 33%;
+    padding-right: 20%;
+    text-align: right;
+}
