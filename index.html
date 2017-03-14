@@ -11,6 +11,7 @@
   <link type="text/css" rel="stylesheet" href="css/materialize/css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/custom/style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom/animate.css">
 
 </head>
 
@@ -23,12 +24,12 @@
 
   <!-- jQuery is required by Materialize to function -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/viewport-checker/jquery.viewportchecker.min.js"></script>
+  
+  <script type="text/javascript" src="js/materialize/js/materialize.js"></script>  
   <script type="text/javascript" src="js/custom/main.js"></script>
-  <script type="text/javascript">
-    //custom JS code
-  </script>
-
+  
+  
 <!--Header-->
 <div class="navbar-fixed">
   <nav style="background-color:rgba(0, 0, 0, 0.65)">
@@ -51,7 +52,7 @@
   <div class="parallax">
     <img class="responsive-img" src="https://github.com/Ullas-Aithal/Ullas-Aithal.github.io/blob/master/images/904393_537064686329166_749371073_o.jpg?raw=true"></div>
   <div class="right-align">
-    <h1 class="right-align full-name-style grey-text text-lighten-5 right-align">Ullas Aithal</h1>
+    <h1 class="right-align full-name-style grey-text text-lighten-5 right-align animated bounce">Ullas Aithal</h1>
   </div>
 </div>
 
@@ -88,7 +89,7 @@
     <div class="col s4">
       <ul>
         <li>
-          <h4 class="grey-text text-lighten-5">Intel Technology</h4>
+          <h4 class="grey-text text-lighten-5" id="tes">Intel Technology</h4>
         </li>
         <li>
           <h6 class="grey-text text-lighten-5">Capability Engineer</h5>
@@ -116,7 +117,7 @@
 <div class="intro intro-child deep-orange lighten-2 z-depth-1">
 
   <div class="row">
-    <div class="col s4 offset-s2">
+    <div class="col s4 offset-s2 logo-padding">
       <img class="responsive-img" src="https://github.com/Ullas-Aithal/Ullas-Aithal.github.io/blob/master/images/iitlogo.png?raw=true"
         width="100px">
     </div>
@@ -137,7 +138,13 @@
           <div class="collapsible-header remove-padding remove-background remove-border">
             <h6 class="grey-text text-lighten-5">Courses....</h6>
           </div>
-          <div class="collapsible-body remove-padding remove-border"><span>Here's more......</span></div>
+          <div class="collapsible-body remove-padding remove-border collection z-depth-5">
+            <a href="http://science.iit.edu/computer-science/programs/course-descriptions#CS442" target="_blank" class="collection-item">Mobile Applications Development with Android</a>
+            <a href="http://science.iit.edu/computer-science/programs/course-descriptions#CS546" target="_blank" class="collection-item">Parallel and Distributed Processing</a>
+            <a href="http://science.iit.edu/computer-science/programs/course-descriptions#CS551" target="_blank" class="collection-item">Operating System Design And Implementation</a>
+            <a href="http://science.iit.edu/computer-science/programs/course-descriptions#CS525" target="_blank" class="collection-item">Advanced Database Organization</a>
+            <a href="http://science.iit.edu/computer-science/programs/course-descriptions#CS586" target="_blank" class="collection-item">Software Systems Architectures</a>
+            <a href="http://science.iit.edu/computer-science/programs/course-descriptions#CSP544" target="_blank" class="collection-item">System And Network Security</a></div>
         </li>
 
       </ul>
@@ -150,7 +157,7 @@
   <hr>
 
   <div class="row">
-    <div class="col s4 offset-s2">
+    <div class=" logo-padding col s4 offset-s2">
       <img class="responsive-img" src="https://github.com/Ullas-Aithal/Ullas-Aithal.github.io/blob/master/images/rvce-logo.png?raw=true"
         width="100px">
     </div>

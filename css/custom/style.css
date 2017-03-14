@@ -92,3 +92,15 @@
 {
     height: 250px;
 }
+
+.logo-padding
+{ 
+    padding-bottom: 2% !important;
+    padding-top: 2% !important;
+}
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
