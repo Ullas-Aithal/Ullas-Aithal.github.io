@@ -98,9 +98,15 @@
     padding-bottom: 2% !important;
     padding-top: 2% !important;
 }
-.hidden{
+/*.hidden{
      opacity:0;
 }
 .visible{
      opacity:1;
+}*/
+
+.pin-image-dim
+{
+     width: 20px;
+    margin-bottom: -4px;
 }
