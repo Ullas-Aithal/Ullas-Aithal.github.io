@@ -115,3 +115,18 @@
 {
     background-color: #8d0000;
 }
+
+.remove-badge-margin
+{
+    margin-top: 0 !important;
+}
+
+.remove-anchor-color
+{
+    color: white;
+}
+
+.underline
+{
+    text-decoration: underline;
+}
