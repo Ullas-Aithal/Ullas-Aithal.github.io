@@ -53,7 +53,7 @@
 
 .full-name-style
 {
-    padding-top: 33%;
+    padding-top: 27%;
     padding-right: 20%;
     text-align: right;
 }
@@ -93,7 +93,7 @@
     height: 250px;
 }
 
-.logo-padding
+.v-center
 { 
     padding-bottom: 2% !important;
     padding-top: 2% !important;
@@ -129,4 +129,24 @@
 .underline
 {
     text-decoration: underline;
+}
+
+.divider-background
+{
+    background-color: #a24848 !important;
+}
+
+.padding-top-10
+{
+    padding-top: 10px;
+}
+
+.collection a.collection-item
+{
+    color: #2979ff;
+}
+
+.margin-center
+{
+    margin-top: 2%
 }
