@@ -7,7 +7,21 @@ $(document).ready(function(){
         scrollOffset:0
 
 
-        	
+        var options = [
+      {selector: '#projectDescriptionTab', offset: 620, callback: function(el) {
+        Materialize.toast("Click on the images for project description", 3500 );
+       } }//,
+      // {selector: '#staggered-test', offset: 205, callback: function(el) {
+      //   Materialize.toast("Please continue scrolling!", 1500 );
+      // } },
+      // {selector: '#staggered-test', offset: 400, callback: function(el) {
+      //   Materialize.showStaggeredList($(el));
+      // } },
+      // {selector: '#image-test', offset: 500, callback: function(el) {
+      //   Materialize.fadeInImage($(el));
+      // } }
+    ];
+    Materialize.scrollFire(options);
 
 
 
