@@ -10,7 +10,11 @@ $(document).ready(function(){
         var options = [
       {selector: '#projectDescriptionTab', offset: 620, callback: function(el) {
         Materialize.toast("Click on the images for project description", 3500 );
-       } }//,
+       } },
+       {selector: '#skillSetTab', offset: 20, callback: function(el) {
+        $( "skillSet1" ).removeClass( "skillbar" );
+       } }
+
       // {selector: '#staggered-test', offset: 205, callback: function(el) {
       //   Materialize.toast("Please continue scrolling!", 1500 );
       // } },
