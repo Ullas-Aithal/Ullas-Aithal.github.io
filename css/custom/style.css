@@ -10,6 +10,7 @@
     text-align: center;
     padding-top: 13%;
     padding-bottom: 13%;
+
     /*margin-bottom: 50px;*/
 }
 
@@ -80,7 +81,7 @@
 
 .remove-padding
 {
-    padding: 0px;
+    padding: 0px !important;
 }
 
 .remove-background
@@ -159,4 +160,95 @@
 .margin-bottom--3px
 {
     margin-bottom: -3px;
+}
+
+.scroll-window
+{
+    position: fixed;
+    z-index: 1;
+    margin-top: 10%;
+    width:100% !important;
+}
+
+.table-of-contents1.fixed {
+  position: fixed;
+}
+
+.table-of-contents1 li {
+  padding: 2px 0;
+}
+
+.table-of-contents1 a {
+  display: inline-block;
+  font-weight: 300;
+  color: #757575;
+  padding-left: 20px;
+  height: 1.5rem;
+  /*line-height: 1.5rem;*/
+  letter-spacing: .4;
+  display: inline-block;
+}
+
+.table-of-contents1 a:hover {
+  /*color: #a8a8a8;
+  padding-left: 19px;
+  border-left: 1px solid #ee6e73;*/
+}
+
+.table-of-contents1 a.active {
+  /*font-weight: 500;
+  padding-left: 18px;
+  border-left: 2px solid #ee6e73;*/
+}
+
+.table-of-contents1 a.active circle{
+  font-weight: 500;
+  padding-left: 18px;
+  /*border-left: 2px solid #ee6e73;*/
+  fill:green;
+}
+
+.invisible
+{
+    display: none;
+    
+}
+
+.visible
+{
+    direction: block;
+}
+
+.margin-left-60
+{
+    margin-left: 60% !important;
+}
+
+.scroll-items-label-style
+{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+    font-size: large;
+}
+
+.padding-bottom-5
+{
+    
+    padding-bottom: 5px !important;
+    padding-top: 5px    !important;
+}
+
+.padding-top-5
+{
+    padding-top: 5px    !important;
+}
+.anim
+{
+     animation-name: example;
+     animation-duration: 4s;
+}
+
+@keyframes example {
+    from {color: red;}
+    to {color: yellow;}
 }

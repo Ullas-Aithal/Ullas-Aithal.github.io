@@ -13,6 +13,7 @@
   <!-- <link type="text/css" rel="stylesheet" href="css/fillProgressBar/fillProgressBar.css"> -->
   <link type="text/css" rel="stylesheet" href="css/custom/style.css">
   <link type="text/css" rel="stylesheet" href="css/custom/arrowbounce.css">
+  <link type="text/css" rel="stylesheet" href="css/custom/animate.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- <link href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -31,7 +32,7 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   
    
-  
+  <script type="text/javascript" src="js/waypoint/lib/noframework.waypoints.js"></script>
   <script type="text/javascript" src="js/custom/main.js"></script>
   <script type="text/javascript" src="js/materialize/js/materialize.js"></script>  
   <!-- <script type="text/javascript" src="js/fillProgressBar/fillProgressBar.js"></script>   -->
@@ -56,29 +57,130 @@
 </nav>
 </div>
 
+<div id="scrollWindow" class="row valign-wrapper scroll-window invisible">
+<div class="col hide-on-small-only m3 l2 right-align" >
+      <ul class="section table-of-contents1">
+
+        <li>
+          <div class="row valign-wrapper">
+            <div class="col s10 right-align">
+              <h6 id="intro-scroll-label" class=" invisible scroll-items-label-style">Introduction</h6>
+            </div>
+            <div class="col s2 left-align padding-bottom-5 ">
+              <a href="#intro" id="intro-scroll" class="remove-padding">
+                <svg height="20" width="20">
+                 <g>
+                  <circle class = "c1" cx="10" cy="10" r="9" stroke="white" stroke-width="2" fill="none"></circle>
+                </g>
+                </svg>
+              </a> 
+            </div>
+          </div>         
+        </li>
+
+        
+
+        <li>
+          <div class="row valign-wrapper">
+            <div class="col s10 right-align">
+              <h6 id="exp-scroll-label" class=" invisible scroll-items-label-style">Experience</h6>
+            </div>
+            <div class="col s2 left-align padding-bottom-5">
+              <a href="#experience-picture" id="exp-scroll" class="remove-padding">
+                <svg height="20" width="20">
+                 <g>
+                  <circle class = "c1" cx="10" cy="10" r="9" stroke="white" stroke-width="2" fill="none"></circle>
+                </g>
+                </svg>
+              </a> 
+            </div>
+          </div>         
+        </li>
 
 
+        <li>
+          <div class="row valign-wrapper">
+            <div class="col s10 right-align ">
+              <h6 id="edu-scroll-label" class=" invisible scroll-items-label-style">Education</h6>
+            </div>
+            <div class="col s2 left-align padding-bottom-5">
+              <a href="#education-picture" id="edu-scroll" class="remove-padding">
+                <svg height="20" width="20">
+                 <g>
+                  <circle class = "c1" cx="10" cy="10" r="9" stroke="white" stroke-width="2" fill="none"></circle>
+                </g>
+                </svg>
+              </a> 
+            </div>
+          </div>         
+        </li>
+        
+
+        <li>
+          <div class="row valign-wrapper">
+            <div class="col s10 right-align">
+              <h6 id="prj-scroll-label" class=" invisible  scroll-items-label-style">Projects</h6>
+            </div>
+            <div class="col s2 left-align padding-bottom-5">
+              <a href="#projects-picture" id="prj-scroll" class="remove-padding">
+                <svg height="20" width="20">
+                
+                 <g>
+                  <circle class = "c1" cx="10" cy="10" r="9" stroke="white" stroke-width="2" fill="none"></circle>
+                </g>
+
+                </svg>
+              </a> 
+            </div>
+          </div>         
+        </li>
+
+
+        <li>
+          <div class="row valign-wrapper">
+            <div class="col s10 right-align ">
+              <h6 id="skills-scroll-label" class=" invisible scroll-items-label-style">Skills</h6>
+            </div>
+            <div class="col s2 left-align padding-bottom-5">
+              <a href="#skills-picture" id="skills-scroll" class="remove-padding">
+                <svg height="20" width="20">
+                 <g>
+                  <circle class = "c1" cx="10" cy="10" r="9" stroke="white" stroke-width="2" fill="none"></circle>
+                </g>
+                </svg>
+              </a> 
+            </div>
+          </div>         
+        </li>
+
+        
+      </ul>
+    </div>
+</div>
 
 <!--Intro Picture -->
 
-<div class="parallax-container intro-parallax">
+<div class="parallax-container intro-parallax" id = "intro-picture">
   <div class="parallax">
-    <div class="arrow bounce">
-  <a class="fa fa-arrow-down fa-2x" href="#"></a>
-</div>
+    
     <img class="responsive-img" src="https://github.com/Ullas-Aithal/Ullas-Aithal.github.io/blob/master/images/904393_537064686329166_749371073_o.jpg?raw=true">
     <!-- <img class="responsive-img" src="images/904393_537064686329166_749371073_o1.jpg"> -->
+
     </div>
   <div class="right-align">
-    <h1 class="right-align full-name-style grey-text text-lighten-5 right-align">Ullas Aithal</h1>
-  </div>
-</div>
+    <h1 class="right-align full-name-style grey-text text-lighten-5 right-align flip">Ullas Aithal</h1>
+    
 
+
+  </div>
+  
+  
+</div>
 
 
 <!-- About Me-->
 
-<div class="intro intro-child main-card-background z-depth-5">
+<div class="intro intro-child main-card-background z-depth-5 scrollspy" id = "intro">
   <h1 class="grey-text text-lighten-5">About Me</h1>
   <div class="valign-wrapper intro-font-holder">
 
@@ -99,7 +201,7 @@
 </div>
 
 <!-- Experience Picture -->
-<div class="parallax-container">
+<div class="parallax-container scrollspy" id = "experience-picture">
   <div class="parallax">
     <img class="responsive-img" style="filter:brightness(50%);"src="https://github.com/Ullas-Aithal/Ullas-Aithal.github.io/blob/master/images/technology-images-24.jpg?raw=true">
 </div>
@@ -109,7 +211,7 @@
 </div>
 
 <!-- Experience Description -->
-<div class="intro intro-child main-card-background z-depth-5">
+<div class="intro intro-child main-card-background z-depth-5" id = "experience-description">
   <div class="row">
     <div class="col s4 offset-s2">
 	    <ul>
@@ -148,7 +250,7 @@
 
 
 <!-- Education Picture -->
-<div class="parallax-container">
+<div class="parallax-container scrollspy" id ="education-picture">
   <div class="parallax">
     <img class="responsive-img" style="filter:brightness(50%);"src="https://github.com/Ullas-Aithal/Ullas-Aithal.github.io/blob/master/images/colacao_graduate.jpg?raw=true">
 </div>
@@ -159,7 +261,7 @@
 
 
 <!-- Education Description -->
-<div class="intro intro-child main-card-background z-depth-5">
+<div class="intro intro-child main-card-background z-depth-5" id = "education-description">
 
   <div class="row">
     <div class="col s4 offset-s2">
@@ -264,7 +366,7 @@
 
 
 <!-- Projects Picture -->
-<div class="parallax-container">
+<div class="parallax-container scrollspy" id ="projects-picture">
   <div class="parallax">
     <img class="responsive-img" style="filter:brightness(50%);"src="https://github.com/Ullas-Aithal/Ullas-Aithal.github.io/blob/master/images/wc.jpg?raw=true">
 </div>
@@ -430,7 +532,7 @@
 
 
 <!-- Skills Picture -->
-<div class="parallax-container">
+<div class="parallax-container scrollspy" id ="skills-picture">
   <div class="parallax">
     <img class="responsive-img" style="filter:brightness(50%);"src="https://github.com/Ullas-Aithal/Ullas-Aithal.github.io/blob/master/images/skills.png?raw=true">
 </div>
