@@ -14,16 +14,6 @@ $(document).ready(function(){
        {selector: '#skillSetTab', offset: 20, callback: function(el) {
         $( "skillSet1" ).removeClass( "skillbar" );
        } }
-
-      // {selector: '#staggered-test', offset: 205, callback: function(el) {
-      //   Materialize.toast("Please continue scrolling!", 1500 );
-      // } },
-      // {selector: '#staggered-test', offset: 400, callback: function(el) {
-      //   Materialize.showStaggeredList($(el));
-      // } },
-      // {selector: '#image-test', offset: 500, callback: function(el) {
-      //   Materialize.fadeInImage($(el));
-      // } }
     ];
     Materialize.scrollFire(options);
 
@@ -78,28 +68,31 @@ $(document).ready(function(){
       );
 
       var waypoint = new Waypoint({
-  element: document.getElementById('intro'),
-  handler: function() {
-    $('#scrollWindow').toggleClass("invisible");
-    $('#scrollWindow').addClass("animated slideInRight");
-    
-  },
-  offset: '65%'
-});
+        element: document.getElementById('intro'),
+        handler: function() {
+          $('#scrollWindow').toggleClass("invisible");
+          $('#scroll-down').toggleClass("invisible");
+          $('#scrollWindow').addClass("animated slideInRight");
+
+        },
+        offset: '65%'
+      });
 
       var waypoint2 = new Waypoint({
-  element: document.getElementById('skillSetTab'),
-  handler: function() {
-    jQuery('.skillbar').each(function(){
-  jQuery(this).find('.skillbar-bar').animate({
-    width:jQuery(this).attr('data-percent')
-  },2000);
-});
+        element: document.getElementById('skillSetTab'),
+        handler: function() {
+          jQuery('.skillbar').each(function(){
+            jQuery(this).find('.skillbar-bar').animate({
+              width:jQuery(this).attr('data-percent')
+        },2000);
+      });
 
     
   },
   offset: '95%'
 });
+
+     
 
 
 
