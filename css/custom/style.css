@@ -95,7 +95,7 @@
 }
 
 .v-center
-{ 
+{
     padding-bottom: 2% !important;
     padding-top: 2% !important;
 }
@@ -167,7 +167,8 @@
     position: fixed;
     z-index: 1;
     margin-top: 10%;
-    width:100% !important;
+    width: 20% !important;
+    margin-left: 75%;
 }
 
 .table-of-contents1.fixed {
@@ -211,7 +212,7 @@
 .invisible
 {
     display: none;
-    
+
 }
 
 .visible
@@ -233,7 +234,7 @@
 
 .padding-bottom-5
 {
-    
+
     padding-bottom: 5px !important;
     padding-top: 5px    !important;
 }
