@@ -30,10 +30,23 @@
     font-size: 1.2rem;
 }
 
-.intro-parallax
-{
- height:100%;
+@media (min-width: 800px)
+  {
+    .intro-parallax
+    {      
+        height:100%;
+      }
+
 }
+
+@media (max-width: 600px)
+  {
+    .parallax-container
+    {
+      height: auto;
+    }
+  }
+
 
 .intro-font-holder
 {
