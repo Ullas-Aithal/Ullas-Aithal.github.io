@@ -42,7 +42,7 @@
   {
     .intro-parallax
     {      
-        height:25rem;
+        height:100%;
       }
 
 }
@@ -51,7 +51,7 @@
   {
     .parallax-container
     {
-      height: auto;
+      height: 25rem;
     }
   }
 
