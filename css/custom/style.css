@@ -72,10 +72,19 @@
 }
 .intro-font
 {
-    font-size: 2em;
+    font-size: 1.42em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+@media (max-width:600px)
+{
+    .intro-font
+      {
+          font-size: 2em;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }      
+
+}
 
 
 
