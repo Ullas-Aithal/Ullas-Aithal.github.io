@@ -73,6 +73,21 @@
     text-transform: uppercase;
 }
 
+.white-text
+{
+  color: white;
+}
+
+.side-nav-color
+{
+  background:rgba(0,0,0,0.43);
+}
+
+.side-nav-headers
+{
+  font-size: 1.5rem;
+    padding-left: 1rem;
+}
 .intro h5
 {
     text-transform: uppercase;
