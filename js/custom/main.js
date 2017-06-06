@@ -6,6 +6,13 @@ $(document).ready(function(){
        $('.scrollspy').scrollSpy();
         scrollOffset:0
         $('.scrollspy').scrollSpy();
+          $('.button-collapse').sideNav({
+      menuWidth: 150, // Default is 300
+      edge: 'left', // Choose the horizontal origin
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true // Choose whether you can drag to open on touch screens
+    }
+  );
 
         var options = [
       {selector: '#projectDescriptionTab', offset: 620, callback: function(el) {
