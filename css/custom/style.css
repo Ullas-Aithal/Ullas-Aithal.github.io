@@ -80,13 +80,18 @@
 
 .side-nav-color
 {
-  background:rgba(0,0,0,0.43);
+  background:rgba(0,0,0,0.33);
 }
 
 .side-nav-headers
 {
   font-size: 1.5rem;
     padding-left: 1rem;
+    font-weight: bold;
+}
+.side-nav-menu-items
+{
+  font-weight:  300 !important;
 }
 .intro h5
 {
