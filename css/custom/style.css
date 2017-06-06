@@ -12,6 +12,15 @@
   }
 }
 
+@media (max-width: 900px)
+{
+  .row
+  {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0em;
+  }
+}
 
 .intro
 {
