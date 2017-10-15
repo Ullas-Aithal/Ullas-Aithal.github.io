@@ -224,7 +224,7 @@
 
 .main-card-background
 {
-    background-color: #320e84;
+    background-color: #2d1854;;
 }
 
 .remove-badge-margin
@@ -244,7 +244,7 @@
 
 .divider-background
 {
-    background-color: #a24848 !important;
+    background-color: #025078 !important;
 }
 
 .padding-top-10
@@ -439,6 +439,10 @@
   opacity: .25;
   animation: pulse 2s linear alternate infinite;
 }
+.badge-no-float-right {
+float: none !important;
+}
+
 
 @keyframes pulse {
   to {
