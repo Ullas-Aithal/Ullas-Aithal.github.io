@@ -3,7 +3,60 @@
     background-color: #EDEDED !important;
 }*/
 
+@media (max-width: 600px)
+{
+    html{
 
+    font-size:8px;
+  
+  }
+}
+
+@media (max-width: 900px)
+{
+  .row
+  {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0em;
+  }
+}
+
+/*Changing progressbar.css skill bar span for colorless skill*/
+@media (max-width: 900px)
+{
+  .skillbar-title span {
+  display:block;
+  background:none;
+  padding:0 20px;
+  height:35px;
+  line-height:35px;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:3px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+}
+
+@media (max-width: 900px)
+{
+  span.badge
+  {
+     min-width: initial; 
+    padding: 0 6px;
+    margin-left: 14px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: normal; 
+     height: auto; 
+    color: #757575;
+    float: right;
+    box-sizing: border-box;
+  }
+}
 
 .intro
 {
@@ -20,6 +73,26 @@
     text-transform: uppercase;
 }
 
+.white-text
+{
+  color: white;
+}
+
+.side-nav-color
+{
+  background:rgba(0,0,0,0.63);
+}
+
+.side-nav-headers
+{
+  font-size: 1.5rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+.side-nav-menu-items
+{
+  font-weight:  300 !important;
+}
 .intro h5
 {
     text-transform: uppercase;
@@ -30,27 +103,63 @@
     font-size: 1.2rem;
 }
 
-.intro-parallax
-{
- height:100%;
+@media (min-width: 600px)
+  {
+    .intro-parallax
+    {      
+        height:100%;
+      }
+
 }
+
+@media (max-width: 600px)
+  {
+    .parallax-container
+    {
+      height: 25rem;
+    }
+  }
+
 
 .intro-font-holder
 {
     padding-left: 20%;
     padding-right: 20%;
 }
+@media (max-width:600px)
+{
+  .intro-font-holder
+  {
+      padding-left: 1em;
+      padding-right: 1em;
+  }
+
+}
 .intro-font
 {
-    font-size: 20px;
+    font-size: 1.42em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+@media (max-width:600px)
+{
+    .intro-font
+      {
+          font-size: 2em;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }      
+
+}
+
+
 
 .intro-child
 {
     padding-top: 4%;
     padding-bottom: 4%
 }
+
+
 
 .full-name-style
 {
@@ -91,8 +200,9 @@
 
 .card-image-size
 {
-    height: 250px;
+    height: 17.85rem;
 }
+
 
 .v-center
 {
