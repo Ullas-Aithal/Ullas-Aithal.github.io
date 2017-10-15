@@ -8,7 +8,7 @@
     html{
 
     font-size:8px;
-  
+
   }
 }
 
@@ -45,13 +45,13 @@
 {
   span.badge
   {
-     min-width: initial; 
+     min-width: initial;
     padding: 0 6px;
     margin-left: 14px;
     text-align: center;
     font-size: 1rem;
-    line-height: normal; 
-     height: auto; 
+    line-height: normal;
+     height: auto;
     color: #757575;
     float: right;
     box-sizing: border-box;
@@ -106,7 +106,7 @@
 @media (min-width: 600px)
   {
     .intro-parallax
-    {      
+    {
         height:100%;
       }
 
@@ -147,7 +147,7 @@
       {
           font-size: 2em;
           font-family: Verdana, Geneva, Tahoma, sans-serif;
-      }      
+      }
 
 }
 
@@ -224,7 +224,7 @@
 
 .main-card-background
 {
-    background-color: #8d0000;
+    background-color: #320e84;
 }
 
 .remove-badge-margin
