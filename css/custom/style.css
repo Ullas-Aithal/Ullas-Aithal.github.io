@@ -13,6 +13,7 @@
 .side-nav-headers{font-size:1.5rem;padding-left:1rem;font-weight:bold;}
 .side-nav-menu-items{font-weight:300 !important;}
 .intro h5{text-transform:uppercase;background-color:#f5f5f5;padding:10px;color:#333333;display:inline-block;font-size:1.2rem;}
+.text-underline {text-decoration: underline;}
 @media (min-width:600px){.intro-parallax{height:100%;}
 }
 @media (max-width:600px){.parallax-container{height:25rem;}
