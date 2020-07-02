@@ -54,6 +54,16 @@ $(document).ready(function(){
 
       );
 
+      $('#foss-scroll').hover(
+
+        function()
+        {
+          $('#foss-scroll-label').toggleClass("invisible");
+          $('#foss-scroll-label').addClass("animated bounceIn");
+        }
+  
+        );
+
     $('#prj-scroll').hover(
 
       function()
