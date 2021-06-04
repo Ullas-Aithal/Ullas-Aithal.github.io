@@ -1,0 +1,38 @@
+.category{
+    padding-top: 1px;
+    padding-bottom: 45px;
+}
+.category-alt1{
+    background-color: #373737;
+}
+.category-alt2{
+    background-color: #5316a3;
+}
+.card-alt1{
+    background-color: #5316a3; 
+}
+.card-alt2{
+    background-color: #373737;
+}
+.tab-color{
+    background-color: #424242;
+}
+.headings{
+    padding-bottom: 30px;
+}
+.modal{
+    width: 40%;
+}
+.collapsible{
+    margin-bottom: 0px !important;
+}
+.modal-extra{
+    padding:0px !important;
+}
+
+.margin-bottom-zero{
+    margin-bottom: 0px !important;
+}
+.margin-top-zero{
+    margin-top: 0px !important;
+}
