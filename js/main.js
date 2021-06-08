@@ -10,17 +10,12 @@ $(document).ready(function(){
 
     $('.tabs').tabs({
         duration: 250,
-        //swipeable: true
     });
 
     $('.scrollspy').scrollSpy();
-
-    // $("#exp1").click(function(){
-    //     $('#exp-modal1').modal('open')
-    //   });
-    // $("#exp3").click(function(){
-    //     $('#exp-modal2').modal('open')
-    //   });
+    $('#nav-bar-title').hide();
+    $('.sidenav').sidenav();
+    $('.chips').chips();
       
 
     var now = moment();
@@ -56,18 +51,28 @@ $(document).ready(function(){
             tenure = tenure + days + " Days";
         }
     }
-    console.log(years + ' years ' + months + ' months ' + days + ' days');
-    console.log(tenure);
     document.getElementById("current-tenure").innerHTML = tenure;
+
+    document.getElementById("copyright-year").innerHTML = now.year();
   });
 
   $(document).on('scroll', function() {
     if ($(this).scrollTop() >= $('#experience-header').position().top) {
-        $("#skill2").css("width", "90%");
+        $("#skill1").css("width", "90%");
         $("#skill2").css("width", "85%");
         $("#skill3").css("width", "70%");
         $("#skill4").css("width", "90%");
         $("#skill5").css("width", "70%");
-        $("#skill6").css("width", "70%");
+        $("#skill6").css("width", "60%");
+        $("#skill7").css("width", "70%");
+        $("#skill8").css("width", "70%");
+        $("#skill9").css("width", "50%");
     }
+    if ( $(this).scrollTop() > 100 ) {
+        $('#nav-bar-title').show();
+       /// $('header').slideDown();
+       } else if ( $(this).scrollTop() <= 200 ) {
+        $('#nav-bar-title').hide();
+       // $('header').slideUp();
+      }
   })
