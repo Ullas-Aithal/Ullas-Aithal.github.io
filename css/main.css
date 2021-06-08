@@ -66,3 +66,6 @@
     height: 20px !important;
     margin-bottom: -3px !important;
 }
+.collapsible, .collapsible-body, .collapsible-header{
+    border: none !important;
+}
