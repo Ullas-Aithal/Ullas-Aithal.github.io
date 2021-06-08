@@ -69,3 +69,6 @@
 .collapsible, .collapsible-body, .collapsible-header{
     border: none !important;
 }
+.font-weight-300{
+    font-weight: 300;
+}
