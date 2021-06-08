@@ -61,3 +61,8 @@
 .margin-top-zero{
     margin-top: 0px !important;
 }
+.img-dimen{
+    width: 20px !important;
+    height: 20px !important;
+    margin-bottom: -3px !important;
+}
