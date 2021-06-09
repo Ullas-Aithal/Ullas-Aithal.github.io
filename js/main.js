@@ -54,6 +54,17 @@ $(document).ready(function(){
     document.getElementById("current-tenure").innerHTML = tenure;
 
     document.getElementById("copyright-year").innerHTML = now.year();
+
+
+  });
+
+  $(window).scroll(function() {
+    var offset = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    var height = $(document).height();
+    var progress = (offset / (height - windowHeight)) * 100;
+    console.log(progress)
+    $("#scroll-bar").css("width", progress + "%");
   });
 
   $(document).on('scroll', function() {
@@ -76,3 +87,5 @@ $(document).ready(function(){
        // $('header').slideUp();
       }
   })
+
+  
